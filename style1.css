@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: url(imagesused/background.avif);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.main .logo{
+    width: 160px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.image{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 100%;
+    bottom: 0;
+}
+
+.image .boy{
+    position: absolute;
+    height: 140%;
+    left: 40%;
+    transform: translate(-50%);
+    bottom: 0;
+}
+
